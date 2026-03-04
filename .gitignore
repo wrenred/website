@@ -1,0 +1,17 @@
+# Temporary files
+tmpclaude-*
+*.tmp
+
+# Files not needed for website
+install.ps1
+trial CV - for claude website.docx
+trial CV - for claude website.pdf
+wedding.JPG
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
