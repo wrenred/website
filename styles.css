@@ -262,6 +262,34 @@ nav .container {
     margin-bottom: var(--spacing-md);
 }
 
+.paper-status .coauthors {
+    font-style: normal;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.paper-presentations {
+    background-color: rgba(231, 84, 128, 0.06);
+    border-left: 3px solid var(--color-pink);
+    padding: 0.6rem var(--spacing-sm);
+    margin-top: calc(-1 * var(--spacing-md) + var(--spacing-sm));
+    margin-bottom: var(--spacing-md);
+    font-size: 0.95rem;
+}
+
+.paper-presentations p {
+    margin-bottom: 0;
+}
+
+.paper-presentations h4 {
+    font-family: var(--font-heading);
+    font-size: 0.8rem;
+    color: var(--color-pink);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.2rem;
+}
+
 .paper-abstract {
     margin-bottom: var(--spacing-md);
     font-size: 1.05rem;
